@@ -13,9 +13,9 @@ const wss = new WebSocket.Server({ server });
 // Формат: "discord_id": "ROLE"
 const rolesDB = {
     // Добавь сюда свой Discord ID как админа
-    // "123456789012345678": "ADMIN",
-    // "987654321098765432": "YOUTUBE",
-    // "111222333444555666": "BETA"
+     "1410123503272726654": "ADMIN",
+     "987654321098765432": "YOUTUBE",
+     "1431565754964119613": "BETA"
 };
 
 // Файл для хранения ролей (чтобы не терялись при рестарте)
@@ -220,3 +220,4 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
     console.log(`AresClient IRC Server running on port ${PORT}`);
 });
+
